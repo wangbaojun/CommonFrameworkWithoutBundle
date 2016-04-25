@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CommonFrameworkWithoutBundle
 
 [![CI Status](http://img.shields.io/travis/netease/CommonFrameworkWithoutBundle.svg?style=flat)](https://travis-ci.org/netease/CommonFrameworkWithoutBundle)
@@ -27,3 +28,6 @@ netease, bjwangbaojun@corp.netease.com
 ## License
 
 CommonFrameworkWithoutBundle is available under the MIT license. See the LICENSE file for more info.
+=======
+# CommonFrameworkWithoutBundle
+>>>>>>> a0913da846745e7e5e9dc6ea7f6be7dac5a81c53

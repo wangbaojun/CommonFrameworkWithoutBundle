@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CommonFrameworkWithoutBundle_Example', :exclusive => true do
+  pod 'CommonFrameworkWithoutBundle', :path => '../'
+end
+
+target 'CommonFrameworkWithoutBundle_Tests', :exclusive => true do
+  pod 'CommonFrameworkWithoutBundle', :path => '../'
+
+  
+end

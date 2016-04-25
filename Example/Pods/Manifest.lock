@@ -1,0 +1,14 @@
+PODS:
+  - CommonFrameworkWithoutBundle (0.1.0)
+
+DEPENDENCIES:
+  - CommonFrameworkWithoutBundle (from `../`)
+
+EXTERNAL SOURCES:
+  CommonFrameworkWithoutBundle:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CommonFrameworkWithoutBundle: 904cd6c2673460a43222e24f46ec4db6d3fa8bd4
+
+COCOAPODS: 0.39.0

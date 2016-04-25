@@ -1,40 +1,15 @@
-#
-# Be sure to run `pod lib lint CommonFrameworkWithoutBundle.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = "CommonFrameworkWithoutBundle"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of CommonFrameworkWithoutBundle."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-                       DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/CommonFrameworkWithoutBundle"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "netease" => "bjwangbaojun@corp.netease.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CommonFrameworkWithoutBundle.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'CommonFrameworkWithoutBundle/Classes/**/*'
-  s.resource_bundles = {
-    'CommonFrameworkWithoutBundle' => ['CommonFrameworkWithoutBundle/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.name         = "CommonFrameworkWithoutBundle"
+s.version      = "0.1.1"
+s.summary          = "LeDe CaiPiao Account."
+s.source       = { :git => "https://github.com/wangbaojun/CommonFrameworkWithoutBundle.git", :tag =>  s.version.to_s}
+s.platform     = :ios, '6.0'
+s.requires_arc = false
+s.homepage     = "https://github.com/wangbaojun/CommonFrameworkWithoutBundle.git"
+# s.screenshots  = "www.example.com/screenshots_1.gif"
+s.license      = "MIT"				#开源协议
+s.author             = { "linyi31" => "linyi@jd.com" }
+s.source_files = 'Output/PublicHeaders/*.{h}'
+s.resource     = 'Output/Resources/*.png'
+s.vendored_libraries  = 'Output/libCommonFrameworkWithoutBundleLib.a'
 end

@@ -1,0 +1,6 @@
+framework module CommonFrameworkWithoutBundle {
+  umbrella header "CommonFrameworkWithoutBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

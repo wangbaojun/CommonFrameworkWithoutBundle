@@ -1,0 +1,24 @@
+{
+  "name": "CommonFrameworkWithoutBundle",
+  "version": "0.1.0",
+  "summary": "A short description of CommonFrameworkWithoutBundle.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CommonFrameworkWithoutBundle",
+  "license": "MIT",
+  "authors": {
+    "netease": "bjwangbaojun@corp.netease.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CommonFrameworkWithoutBundle.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CommonFrameworkWithoutBundle/Classes/**/*",
+  "resource_bundles": {
+    "CommonFrameworkWithoutBundle": [
+      "CommonFrameworkWithoutBundle/Assets/*.png"
+    ]
+  }
+}
